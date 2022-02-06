@@ -20,7 +20,7 @@ const Section = ({genre}) => {
 
     useEffect(() => {
         fetchData()
-    }, [])
+    }, [])//react-hooks/exhaustive-deps
 
     return (
         <>

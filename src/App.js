@@ -21,7 +21,7 @@ const App = () => {
 
     useEffect(() => {
         fetchData()
-    }, [, limit])
+    }, [limit]) //react-hooks/exhaustive-deps
 
 
     return (
