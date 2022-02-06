@@ -20,7 +20,6 @@ const Card = ({movie}) => {
                 </video>
             )
         }
-
             {
             isShown && (
                 <>
