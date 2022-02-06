@@ -21,7 +21,7 @@ const App = () => {
 
     useEffect(() => {
         fetchData()
-    }, [limit]) //react-hooks/exhaustive-deps
+    }, [limit]) // eslint-disable-next-line react-hooks/exhaustive-deps
 
 
     return (
